@@ -1,0 +1,987 @@
+﻿<!--Bulma boilerplate https://bulma.io/documentation/overview/classes/ -->
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Abenteuer aus einer anderen Welt</title>
+	<link rel="stylesheet" href="css/bulma.min.css"> </head>
+
+<body>
+	<!--Cover -->
+	<section class="hero is-fullheight" style="background: url('img/header.png') no-repeat center center; background-size: cover;">
+		<div class="hero-body">
+			<div class="container">
+				<div class="box has-text-centered has-background-black p-1">
+					<div class="box has-text-centered p-4 is-family-monospace has-background-white" style="background: url('img/background.png'); background-repeat: repeat;">
+						<h1 class="title is-1 is-uppercase has-text-weight-bold">Abenteuer aus einer anderen Welt</h1>
+						<p class="subtitle is-3 has-text-gray has-text-weight-light is-family-sans-serif is-italic">Rollenspiel</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-primary">
+		<div class="hero-body">
+			<p> </p>
+		</div>
+	</section>
+	<!--Back cover-->
+	<section class="hero is-fullheight is-warning">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="columns is-vcentered is-gapless">
+					<div class="column is-hidden-mobile">
+						<figure class="image is-full-width p-0"> <img src="img/black-25.png" alt="Black Cat #25, art by Lee Elias https://digitalcomicmuseum.com/index.php?dlid=6419"/> </figure>
+					</div>
+					<div class="column">
+						<div class="box has-text-centered has-background-grey-darker p-1">
+							<div class="box">
+								<h2 class="title is-2 has-text-primary-dark">Sprung in das Abenteuer!</h2> </div>
+						</div>
+						<div class="box has-text-centered has-background-grey-darker p-1">
+							<div class="box">
+								<p class="subtitle is-4">In nur wenigen Minuten wirst du die Galaxie mit deinen Lieblings-Science-Fiction-Charakteren erkunden, Bösewichte mit deiner treuen Gruppe sprechender Paviane bekämpfen oder als moderne Hexe, die sich auf Liebestränke spezialisiert hat, ein Geschäft eröffnen. Vielleicht willst du schnell ein neues Rollenspiel ausprobieren. Oder du bist ein Erstspieler, der neugierig auf das Genre ist, sich aber nicht traut, Stunden seiner Zeit zu investieren. Egal, Abenteuer aus einer anderen Welt wird etwas Besonderes für dich bereithalten.</p>
+								<p class="subtitle is-4">Abenteuer aus einer anderen Welt, oder <i>AAW</i>, ist eine Adaption der beliebten Fate Accelerated Edition, mit all der Flexibilität und Macht von Fate in einem kürzeren Format. Darin erfährst du, wie du schnell lustige Charaktere und einfache Systeme erstellen kannst, die jede Geschichte unterstützen, die du dir ausdenkst.  Mit <i>AAW</i> beginnt das Abenteuer in wenigen Minuten.</p>
+							</div>
+						</div>
+						<div class="box has-text-centered has-background-grey-darker p-1">
+							<div class="box">
+								<h3 class="title is-3">3… 2… 1… ACTION!</h3> </div>
+						</div>
+					</div>
+				</div>
+				<p class="has-text-left is-size-7 has-text-grey">Entworfen von Alain Dellepiane für <a href="http://locjam.org/">LocJAM</a> und lizenziert unter einer <a href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. Diese Arbeit basiert auf Fate Core System und Fate Accelerated (zu finden unter <a href="http://www.faterpg.com/">http://www.faterpg.com/</a>), Produkte von Evil Hat Productions, LLC, entwickelt, verfasst und bearbeitet von Leonard Balsera, Brian Engard, Jeremy Keller, Ryan Macklin, Mike Olson, Clark Valentine, Amanda Valentine, Fred Hicks und Rob Donoghue, und lizenziert für unsere Verwendung unter der Creative Commons Attribution 3.0 Unported license (<a href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a>). Die in dieser Arbeit verwendeten Bilder stammen aus dem Digital Comic Museum. Es wird davon ausgegangen, dass sie in den Vereinigten Staaten gemeinfrei sind, da sie aus einem Buch oder Dokument reproduziert wurden, für das das Urheberrecht in den Vereinigten Staaten angeblich abgelaufen ist.</p>
+			</div>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-primary">
+		<div class="hero-body">
+			<p> </p>
+		</div>
+	</section>
+	<!--Get started-->
+	<section class="section">
+		<div class="container is-max-desktop">
+			<div class="content">
+				<h1 class="title is-size-1 is-uppercase">Lass uns beginnen!</h1>
+				<p>Erinnerst du dich noch an die Bücher, in denen die junge Zauberer gegen den dunklen Herrscher des Bösen kämpfen? Dieser Film, in dem die Zwerge darum kämpfen, ihre Bergheimat von einem Drachen zurückzuerobern? Die Zeichentrickserie über mystische Ritter und ihre Armee von Klonen, die in der ganzen Galaxie Unrecht beseitigen?</p>
+				<p>Sind die nicht <i>fantastisch?</i></p>
+				<p>Hier ist deine Chance, sich in die Rolle der Helden in solchen Geschichten zu versetzen.</p>
+				<p><i>Abenteuer aus einer anderen Welt</i> ist ein Tabletop-Rollenspiel, in welchem du und deine Freunde sich versammeln und Geschichten der Gefahr, Hochspannung und Abenteuer erzählt. Vielleicht hast du schon einmal ein ähnliches Spiel gespielt —wie das populäre <i>Dungeons &amp; Dragons</i> — aber keine Sorge, falls nicht; dieses Handbuch wird dich durch die Anfänge deiner Reise leiten.</p>
+				<p>Hier ist, was du zum Spielen brauchst:</p>
+				<section class="my-6">
+					<div class="columns is-vcentered">
+						<div class="column is-primary">
+							<ul>
+								<li><b>Drei bis fünf Personen</b>. Einer von euch wird der <b>Spielleiter</b> sein, die anderen <b>Spieler</b>. Wir werden später darüber sprechen, was das bedeutet.</li>
+								<li><b>Fate-Würfel™</b>, mindestens vier, besser vier pro Person. Dies ist eine spezielle Art von sechsseitigen Würfeln, die auf zwei Seiten mit einem Plus-Symbol<b class="has-background-success has-text-white">&nbsp;+&nbsp;</b>, auf zwei Seiten mit einem Minus-Symbol<b class="has-background-danger has-text-white">&nbsp;-&nbsp;</b>, und auf zwei Seiten mit einer leeren<b class="has-background-warning has-text-warning">&nbsp;0&nbsp;</b>markiert sind. Ihr erhaltet diese Würfel in vielen Hobby- und Spieleläden, oft unter ihrem ursprünglichen Namen — Fudge-Würfel. Wir nennen sie in diesem Buch Fate-Würfel, aber sie können sie nennen, wie sie wollen.  Evil Hat wird im Laufe des Jahres 2013 Fate-Würfel unter <a href="http://www.evilhat.com/">www.evilhat.com</a> zum Verkauf anbieten.</li>
+								<li>Das <b>Deck of Fate</b> ist eine Alternative zu den Fate-Würfeln. Es ist ein Kartenspiel, das die Wahrscheinlichkeit von Fate Würfel nachahmt und so gestaltet ist, dass es auf die gleiche Weise wie Fate Würfel verwendet werden kann. Das Deck of Fate wird 2013 oder 2014 bei Evil Hat erhältlich sein.</li>
+								<li><b>Charakterbögen</b>, einer für jeden Spieler. Sie können diese von <a href="http://www.evilhat.com/">www.evilhat.com</a> herunterladen.</li>
+								<li><b>Index-Karten</b> oder <b>Klebezettel</b> oder ähnliche Zettel.</li>
+								<li><b>Spielmarken für Fate-Punkte</b>. Das können Pokerchips, Perlen, Pfennige oder etwas Ähnliches sein. Nimm dir eine Handvoll —etwa 30 oder 40.</li>
+							</ul>
+						</div>
+						<div class="column is-3">
+							<div class="box has-background-grey-darker has-text-centered">
+								<p class="has-text-white">Wenn du keine Fudge-Würfel verwenden möchtest, musst du das nicht tun – ein beliebiger Satz normaler sechsseitiger Würfel ist ausreichend.  Wenn du normale Würfel verwendest, lies du 5 oder 6 als <b class="has-background-success has-text-white">&nbsp;+&nbsp;</b>, 1 oder 2 als <b class="has-background-danger has-text-white">&nbsp;-&nbsp;</b> und 3 oder 4 als <b class="has-background-warning has-text-warning">&nbsp;0&nbsp;</b>.</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<p>Als Nächstes wollen wir darüber sprechen, wie man <i>Abenteuer aus einer anderen Welt</i> verwenden kann, um gemeinsam Geschichten zu erzählen.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-primary">
+		<div class="hero-body"> </div>
+	</section>
+	<!--character-->
+	<section class="section">
+		<div class="container is-max-desktop">
+			<div class="content">
+				<h1 class="title is-size-1 is-uppercase">Gemeinsam Geschichten erzählen </h1>
+				<p>Also, du hast deine Freunde versammelt, deine Würfel und Index Karten und ihr seid bereit <i>Abenteuer einer anderen Welt</i> zu spielen (wir werden es von nun an <i>AAW</i> nennen).  Zeit eingige Geschichten zu erzählen!</p>
+				<h2 class="title is-size-3 is-uppercase">Was meinst du, “Geschichten erzählen”?</h2>
+				<p>In <i>AAW</i> dreht sich alles ums Geschichten erzählen. Du erstellst eine Gruppe von Charakteren und folgst ihnen durch ein imginäres Abenteuer, von dem ihr alle abwechselnd kleine Teile etzählt.</p>
+				<p>Denke an Filme, Videospiele, oder Fernsehserien die du magst, bei denen die Charaktere zu einem Abenteuer aufbrechen—sowas wie <i>Die Legende von Korra</i> oder <i>Star Wars</i> oder <i>The Avengers</i> oder <i>die Zelda Spiele</i> oder <i>Doctor Who</i> oder <i>der Herr der Ringe</i>. Jetzt stell dir eine ähnliche Geschichte vor, in der du und deine Freunde am Tisch sitzen und die Entscheidungen für die Charaktere fällt wärend sie durch Geschichte bewegen, und die Geschichte ändert sich durch diese Entscheidungen.</p>
+				<p>Manchmal trifft einer eine Entscheidung etwas zu versuchen und ihr wisst nicht wie die Situation enden würde; in diesem Fall würfel ihr um zu sehen, was als nächstes passiert.  Je höher der Wurf je warscheinlicher, dass alles nach plan abläuft.</p>
+				<h2 class="title is-size-3 is-uppercase">Und wie machen wir das?</h2>
+				<p>Nun, zuerst musst du herausfinden, welche Art von Geschichte du erzählen willst.  An welchem Genre bist du interessiert? Fantasy? Science Fiction? Modernes Abenteuer? Wirst du in einer Fernsehserie, eines Comics oder Films spielen, die du liebst, oder wirst du deine eigene Welt erschaffen? Für einige großartige Ratschläge, wie du den Framework deines Spiels entwerfen kannst siehe <i>Spielerstellung in Fate Core</i>, kostenlos erhältlich unter <a href="http://www.evilhat.com/">www.evilhat.com</a>.</p>
+				<p>Als nächstes ist es an der Zeit zu entscheiden, wer die Spieler und wer der Spielleiter sein wird.  Von den Personen am Tisch werden alle bis auf einen als <b>Spieler</b> bezeichnet. Jeder Spieler schlüpft in die Rolle eines <b>Spielercharakters</b> oder <b>SC</b> in der Geschichte und versetzt sich in die Lage seines Charakters, um die Entscheidungen zu treffen, die sein Charakter treffen würde.  Die verbleibende Person wird <b>Spielleiter</b> oder <b>SL</b> genannt.  Die Aufgabe des Spielleiters ist es, die Spieler vor Herausforderungen zu stellen und alle Charaktere darzustellen, die nicht von den Spielern gesteuert werden (<b>Nicht-Spieler-Charaktere</b> oder <b>NSCs</b>).</p>
+				<p>Sobald du entschieden hast, wer der Spielleiter sein wird und wie das Genre und der Rahmen der Geschichte aussehen wird, ist es Zeit für die Spieler, ihre Charaktere zu erstellen — das ist im nächsten Kapitel.</p>
+				<h3 class="title is-size-4 is-uppercase">Geschichten „Gemeinsam“ zu erzählen? Was bedeutet das?</h3>
+				<p>Alle Personen am Tisch, sowohl der Spielleiter als auch die Spieler, sind für das Erzählen der Geschichte verantwortlich. Wenn du eine Entscheidung für deinen Charakter triffst (oder für NSCs, wenn du der SL bist), denke an Zwei Dinge.</p>
+				<p>Erstens, versetze dich in die Lage deines Charakters und denke gut darüber nach, was er/sie tun wurde auch wenn es nicht die beste Idee ist. Wenn du einen Charakter spielst, der manchmal schlechte Entscheidungen trifft, habe keine Angst, absichtlich eine schlechte Entscheidung für sie/ihn zu treffen.</p>
+				<p>Zweitens — und das ist wirklich wichtig — denke über die Geschichte nach, die erzählt wird.  Denke über die Entscheidung nach, die die Geschichte noch besser machen würde: interessanter, spannender, lustiger.  Würde eine bestimmte Wahl dem Charakter eines anderen Spielers die Chance geben, fantastisch zu sein? Ziehe es in Betracht diese Wahl zu treffen.</p>
+				<p>So könnt ihr <i>Gemeinsam</i> großartige Geschichten erzählen, — indem ihr keine Angst davor habt, dass euer Charakter Fehler macht und indem ihr Entscheidungen trefft, die die Geschichte für alle am Tisch interessanter machen — nicht nur für euch.</p>
+			</div>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-primary">
+		<div class="hero-body">
+			<p> </p>
+		</div>
+	</section>
+	<!--Who do you want to be-->
+	<section class="section">
+		<div class="container is-max-desktop">
+			<div class="content">
+				<h1 class="title is-size-1 is-uppercase">Wer willst du sein?</h1>
+				<p>Sobald du entschieden hast, welche Art von Geschichte du in deinem Spiel erzählen willst, entscheidest du, wer deine Charakter ist - wie er/sie aussieht, was er/sie gut kann und was er/sie glaubt.</p>
+				<h2 class="title is-size-3 is-uppercase">Welche Art von Charakteren kann ich spielen?</h2>
+				<p>Denke an das Schauplatz, in dem du spielen willst, und mache das zu deinem wichtigsten Leitfaden. Spielst du in einer Schule für junge Zauberer?  Spiel einen jungen Zauberer! Spielst du Weltraumpiloten, die gegen ein böses Imperium kämpfen?  Spiel einen Weltraumpilote! Stelle sicher, dass dein Charakter einen Grund hat, mit den Charakteren der anderen Spieler zu interagieren und zu kooperieren.</p>
+				<h2 class="title is-size-3 is-uppercase">Wie erstelle ich den Character?</h2>
+				<p>Jetzt ist es an der Zeit, etwas aufzuschreiben. Schnapp dir einen Stift und eine Kopie des Charakterbogens. Manche Leute verwenden gerne ausfüllbare PDFs auf einem Laptop oder Tablet-Computer. Alles davon ist in Ordnung, aber du willst auf jeden Fall etwas, das du löschen und ändern kannst.</p>
+				<h3 class="title is-size-4 is-uppercase">Aspekte im Überblick</h3>
+				<p>Ein <b>Aspekt</b> ist ein Wort, eine Phrase oder ein Satz, der etwas beschreibt, das für dein Charakter von zentraler Bedeutung ist.  Es kann ein Motto sein, nach dem dein Charakter lebt, eine persönliche Eigenart, eine Beschreibung der Beziehung zu einem anderen Charakter, ein wichtiger Besitz oder ein Stück Ausrüstung, das Ihr Charakter besitzt, oder irgendein anderer Teil Ihres Charakters, der von entscheidender Bedeutung ist.</p>
+				<p>Aspekte erlauben es dir, die Geschichte auf eine Weise zu verändern, die mit den Tendenzen, Fähigkeiten oder Problemen deines Charakters zusammenhängt. Du kannst sie auch verwenden, um Fakten über den Schauplatz festzulegen, wie das Vorhandensein von Magie oder die Existenz eines nützlichen Verbündeten, eines gefährlichen Feindes oder einer geheimen Organisation.</p>
+				<p>Dein Charakter wird eine Handvoll Aspekte haben (zwischen drei und fünf), darunter ein <b>hohes Konzept</b> und ein <b>Dilemma</b>. Wir besprechen Aspekte im Detail in <i>Aspekte und Fate-Punkte</i> — aber für den Moment sollte dies die helfen, die Idee zu bekommen.</p>
+<section class="my-6">			
+				<div class="box">
+					<p class="has-text-weight-bold is-size-5">Hohes Konzept
+						<p>
+							<p>Entscheide dich zuerst für das <b>hohes Konzept</b> deines Charakters. Dies ist ein einzelner Satz, der deinen Charakter zusammenfasst, der sagt, wer du bist, was du tust, was dein „Geschichte" ist.  Wenn du über dein hohes Konzept nachdenkst, versuche an zwei Dinge zu denken: wie dieser Aspekt dir helfen könnte, und wie er die Dinge für dich schwieriger machen könnte. Gute High-Konzept-Aspekte tun beides.</p>
+							<p class="has-text-centered is-italic">Beispiele: Feline Captain des Cirrus Skimmer; Suncaller der Andral-Wüste; Chief Field Agent der IGEMA</p>
+							<p class="has-text-weight-bold is-size-5">Dilemma</p>
+							<p>Entscheide dich als nächstes für die Sache, die dich immer in <b>Dilemma</b> bringt. Es könnte eine persönliche Schwäche sein, oder ein wiederkehrender Feind, oder eine wichtige Verpflichtung - irgendetwas, das dein Leben kompliziert macht.</p>
+							<p class="has-text-centered is-italic">Beispiele: Steel Assassinen wollen mich tot sehen; erst schießen und dann Fragen stellen; Ich muss nach meinem kleinen Bruder ausschau halten.</p>
+							<p class="has-text-weight-bold is-size-5">Ein anderer Aspekt</p>
+							<p>Erfinde nun einen weiteren Aspekt. Denke an etwas wirklich Wichtiges oder Interessantes über deinen Charakter. Sind sie die stärkste Person in ihrer Heimatstadt? Trägt er ein mächtiges Schwert, das in der Geschichte bekannt ist? Reden sie zu viel? Sind sie stinkreich?</p>
+							<p class="has-text-weight-bold is-size-5">Optional: Ein oder zwei zusätzliche Aspekte</p>
+							<p>Wenn du möchtest, kannst du einen oder zwei weiere Aspekte erstellen. Diese Aspekte könnten die Beziehung deines Charakters zu anderen Spielercharakteren oder z einem NSC beschreiben. Oder, wie der dritte Aspekt, den du oben verfasst hast, könntest du etwas besonders Interessantes über deinen Charackter beschreiben.</p>
+							<p>Wenn du es vorziehst, kannst du einen oder beide dieser Aspekte jetzt leer lassen und sie später ausfüllen, nachdem das Spiel begonnen hat. </p>
+							<p class="has-text-weight-bold is-size-5">Name und Aussehen</p>
+							<p>Beschreibe das Aussehen deines Charakters und gib ihm einen Namen.</p>
+							<figure class="image is-full-width"> <img src="img/startling-51.png" alt="Startling Comics #51, art by Alex Schomburg https://digitalcomicmuseum.com/index.php?dlid=27123"/> </figure>
+				</div>
+				<div class="box has-background-grey-darker has-text-white">
+					<p class="is-size-4"> <b>Charaktere erstellen: 30 Sekunden Version</b></p>
+						<ul>
+							<li>Schreibe zwei Aspekte auf: Hohes Konzept und Dilemma.</li>
+							<li>Schreibe einen weiteren Aspekt auf.</li>
+							<li>Gibt deinem Charakter einen Namen und beschreibe sein Aussehen.</li>
+							<li>Wähle deine Fertigkeiten.</li>
+							<li>Setze deine Erholungsrate auf 3.</li>
+							<li>Du kannst bis zu zwei mehr Aspekte aufschreiben und eine Stunt wählen oder dies während dem Spiel entscheiden. </li>
+						</ul>
+				</div>
+			</section>
+				<div class="columns is-vcentered my-6">
+					<div class="column is-7 is-primary">
+						<h3 class="title is-size-4 is-uppercase">Fertigkeiten</h3>
+						<p>Wähle deine <b>Fertigkeiten</b>.</p>
+						<p>Fertigkeiten sind Beschreibungen, wie du Aufgaben erledigst. Jeder hat die gleichen sechs Fertigkeiten:</p>
+						<ul>
+							<li>Vorsichtig</li>
+							<li>Clever</li>
+							<li>Auffällig</li>
+							<li>Kraftvoll</li>
+							<li>Schnell</li>
+							<li>Heimlich</li>
+						</ul>
+						<p>Jeder Fertigkeit wird mit einem Bonus bewertet.  Wähle einen bei Gut (+3), zwei bei Mittelmäßig (+2), zwei bei Durchschnittlich (+1) und einen bei Mittelmäßig (+0). Du kannst dieser Später verbessern. Was die einzelnen Fertigkeiten bedeuten und wie du ihn verwendest in <i>Wie man Dinge tut: Ergebnisse, Fertigkeiten, und Aktionen</i></p>
+						<p>Deine Fertigkeiten können eine Menge darüber aussagen, wer du bist. Hier sind einige Beispiele:</p>
+						<ul>
+							<li><b>Der Berserker:</b> Kraftvoll +3, Vorsichtig und auffällig +2, Heimlich und schnell +1, Clever +0</li>
+							<li><b>Der Alleskönner:</b> Schnell +3, Kraftvoll und Auffällig +2, Clever and Vorsichtig +1, Heimlich +0</li>
+							<li><b>Der Betrüger:</b> Clever +3, Heimlich und Auffällig +2, Kraftvoll und Schnell +1, Vorsichtig +0</li>
+							<li><b>Der Wächter:</b> Vorsichtig +3, Kraftvoll und Clever +2, Heimlich und Schnell +1, Auffällig +0</li>
+							<li><b>Der Dieb:</b> Heimlich +3, Vorsichtig und Schnell +2, Clever und Auffällig +1, Kraftvoll +0</li>
+							<li><b>Der Säbelrassler:</b> Auffällig +3, Schnell und Clever +2, Kraftvoll und Heimlich +1, Vorsichtig +0</li>
+						</ul>
+					</div>
+					<div class="column is-1 is-primary"></div>
+					<div class="column is-primary is-3">
+						<div class="box">
+							<h3 class="is-size-5">Die Leiter</h3>
+							<p>In <i>AAW</i> verwenden wir eine Leiter aus Adjektiven und Zahlen, um die Fertigkeiten eines Charakters, das Ergebnis eines Wurfs, Schwierigkeitsgrade für einfache Checks usw. zu bewerten.</p>
+							<p>Hier ist die Leiter:</p>
+							<table class="is-size-7 table is-narrow table is-striped">
+								<tr>
+									<td>+8</td>
+									<td>Legendär</td>
+								</tr>
+								<tr>
+									<td>+7</td>
+									<td>Episch</td>
+								</tr>
+								<tr>
+									<td>+6</td>
+									<td>Fantastisch</td>
+								</tr>
+								<tr>
+									<td>+5</td>
+									<td>Hervorragend</td>
+								</tr>
+								<tr>
+									<td>+4</td>
+									<td>Großartig</td>
+								</tr>
+								<tr>
+									<td>+3</td>
+									<td>Gut</td>
+								</tr>
+								<tr>
+									<td>+2</td>
+									<td>Ordentlich</td>
+								</tr>
+								<tr>
+									<td>+1</td>
+									<td>Durchschnittlich</td>
+								</tr>
+								<tr>
+									<td>0</td>
+									<td>Mäßig</td>
+								</tr>
+								<tr>
+									<td>-1</td>
+									<td>Schwach</td>
+								</tr>
+								<tr>
+									<td>-2</td>
+									<td>Fürchterlich</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<section class="section">
+					<div class="columns is-8">
+						<div class="column is-half">
+							<h3 class="title is-size-4 is-uppercase">Stunts und Erholungsrate</h3>
+							<p>Ein <b>Stunt</b> ist eine spezielle Charaktereigenschaft, die die Anwendung einer Fertigkeit für deinen Charaker abändert. Generall geben dir Stunts einen Bonus (fast immer +2) auf eine bestimmten Fertigkeit wenn sie mit einer bestimmten Aktion unter bestimmten Umständen eingesetzt werden. Wir werden mehr über Stunts in <i>Stunts</i> sprechen. Wähle eine Stunt zu beginn oder du kannst warten und während des Spiels einen Stunt hinzufügen. Später, wenn dein Charakter sich weiterentwickelt, kannst du weitere auswählen.</p>
+							<p>Deine <b>Erholungsrate</b> ist die Anzahl an Fate-Punkten, mit der du jede Spielsitzung beginnst. — Es sei denn, du hast die vorherige Sitzung mit mehr unverbrauchten Fate-punkten als deiner Erholungsrate beendet, in diesem Fall beginnst du mit der Anzahl, die du beim letzten Mal übrig hattest.  Standardmäßig beginnt die Erholungsrate bei drei Punkten und wird für jeden Stunt nach den ersten drei, die man auswählt, um einen Punkt reduziert - im Grunde die ersten drei Stunts kostenlos! Je weiter dein Charakter weiterentwickelt, desto mehr Möglichkeiten hast du, deinen Erholungsrate zu erhöhen. Deine Erholungsrate kann nie unter 1 sinken.</p>
+						</div>
+						<div class="column">
+							<div class="box has-background-grey-darker has-text-white">
+								<p class="is-size-4 has-text-weight-bold">Wie viele Stunts?</p>
+								<p><i>AAW</i> schlägt standardmäßig vor, einen Stunt für den Anfang auszuwählen.</p>
+								<p>Wenn du jedoch zum ersten Mal ein Fate-Spiel spielst, ist es vielleicht einfacher, deinen ersten Stunt auszuwählen, nachdem du ein wenig gespielt hast, um die eine Vorstellung davon zu machen, was ein guter Stunt sein könnte. Füge deinen Stunt einfach während oder nach deiner ersten Spielsitzung hinzu.</p>
+								<p>Andererseits, wenn du ein erfahrener Fate-Spieler bist, könntest du vorausschauen und entdecken, dass dein Charakter, genau wie in Fate Core, Anspruch auf drei konstenlose Stunts hat, bevor er anfängt, dich Erholungsrate zu kosten. In diesem Fall solltest du dich von dem am wenigsten erfahrenen Mitglied deiner Gruppe leiten lassen; wenn jemand neu im Spiel ist und nur einen für den Anfang nimmt, sollten das alle tun. Wenn ihr alle erfahren seid und mit mächtigeren Charakteren starten wollt, nehmt ihr einfach alle drei zum Start und los geht‘s.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-primary">
+		<div class="hero-body"> </div>
+	</section>
+	<!--How To Do Stuff: Outcomes, Actions, and Approaches-->
+	<section class="section">
+		<div class="container is-max-desktop">
+			<div class="content">
+				<h1 class="title is-size-1 is-uppercase">Wie man Dinge tut: Ergebnisse, Aktionen und Fertigkeiten</h1>
+				<p>Es ist zeit zu agieren. Du musst von einem fahrenden Zugwagon zum nächsten.  Du musst deine gesamte Bibliothek nach Sprüchen durchsuchen, die du wirklich brauchst.  Du musst die Wache ablenken damit du dich in die Festung schleichen kannst. Wie findest du heraus was passiert?</p>
+				<section>
+					<div class="columns is-vcentered">
+						<div class="column is-5">
+							<div class="box has-background-grey-darker has-text-white">
+								<p class="is-size-4 has-text-weight-bold">AKTION AUSFÜHREN: DIE 30 SEKUNDEN VERSION</p>
+								<ol>
+									<li>
+										<p>Beschreibe, was dein Charakter tun soll. Schau, ob dich jemand oder etwas aufhalten kann.</p>
+									</li>
+									<li>
+										<p>Entscheide, welche Aktion du unternimmst: einen Vorteil schaffen, überwinden, angreifen oder verteidigen.</p>
+									</li>
+									<li>
+										<p>Entscheide dich für deine Fertigkeiten.</p>
+									</li>
+									<li>
+										<p>Würfle und addiere den Bonus deiner Fertigkeit.</p>
+									</li>
+									<li>
+										<p>Entscheide, ob du deinen Wurf mit Aspekten modifizieren willst.</p>
+									</li>
+									<li>
+										<p>Finde dein Ergebnis heraus.</p>
+									</li>
+								</ol>
+							</div>
+						</div>
+						<div class="column">
+							<p>Erst einmal schlidere, was dein Charakter vorhat.  Die eigenen Aspekte deines Charakters sind eine gute Hilfe dabei zu erkennen, was du tun <i>kannst</i>. Wenn du einen Aspekt hast, der darauf hindeutet, dass du Magie ausüben kannst, wirke einen Zauber. Wenn deine Aspekte dich als Schwertkämpfer beschreiben, ziehe deine Klinge und drauf los. Diese Geschichtendetails haben keine zusätzliche mechanische Einwirkung. Du bekommst keinen Bonus durch deine Magie oder dein Schwert, ausser du entscheidest dich Fate-Punkte auszugeben, um einen passenden Aspekt zu <b>beschwören</b>. Oft ist die Fähigkeit einen Aspekt zu nutzen um etwas in der Geschichte wahr werden zu lassen Bonus genug!</p>
+							<p>Woher weisst du ob du erfolgreich bist? Oft bist du erfolgreich, weil es keine schwere Aktion ist und keiner versucht dich davon abzuhalten. Aber wenn den Fehlschlag einen interessanten Twist in die Geschichte bringt, oder etwas Unerwartetes passieren könnte, musst du die Würfel rollen lassen.</p>
+						</div>
+					</div>
+				</section>
+				<h2 class="title is-size-3 is-uppercase">Würfel oder Karten</h2>
+				<p>Ein Teil der Bestimmung deines Ergebnisses ist die Generierung einer Zufallszahl, was normalerweise auf eine von zwei Arten geschieht: Würfeln mit vier Fate-Punkte oder Ziehen einer Karte aus einem Deck of Fates.</p>
+				<p><b>Fate-Würfel</b> Fate-Würfel (manchmal auch Fudge-Würfel genannt, nach dem Spiel, für das sie ursprünglich entwickelt wurden) sind eine Möglichkeit, das Ergebnis zu bestimmen. Du würfelst immer mit einem Set aus vier Würfeln. Jede Würfel ergibt <b class="has-background-success has-text-white">&nbsp;+&nbsp;</b>, <b class="has-background-warning has-text-warning">&nbsp;0&nbsp;</b> oder <b class="has-background-danger has-text-white">&nbsp;-&nbsp;</b> und du addierst sie zusammen, um die Summe des Wurfs zu erhalten.</p>
+				<div class="box"> Zum Beispiel:
+					<div class="columns has-text-centered">
+						<div class="column"> <b class="has-background-danger has-text-white">&nbsp;-&nbsp;</b>, <b class="has-background-success has-text-white">&nbsp;+&nbsp;</b>, <b class="has-background-warning has-text-warning">&nbsp;0&nbsp;</b>, <b class="has-background-success has-text-white">&nbsp;+&nbsp;</b> = +1 </div>
+						<div class="column"> <b class="has-background-success has-text-white">&nbsp;+&nbsp;</b>, <b class="has-background-danger has-text-white">&nbsp;-&nbsp;</b>, <b class="has-background-warning has-text-warning">&nbsp;0&nbsp;</b>, <b class="has-background-warning has-text-warning">&nbsp;0&nbsp;</b> = 0 </div>
+					</div>
+					<div class="columns  has-text-centered">
+						<div class="column"> <b class="has-background-success has-text-white">&nbsp;+&nbsp;</b>, <b class="has-background-success has-text-white">&nbsp;+&nbsp;</b>, <b class="has-background-success has-text-white">&nbsp;+&nbsp;</b>, <b class="has-background-danger has-text-white">&nbsp;-&nbsp;</b> = +2 </div>
+						<div class="column"> <b class="has-background-danger has-text-white">&nbsp;-&nbsp;</b>, <b class="has-background-warning has-text-warning">&nbsp;0&nbsp;</b>, <b class="has-background-warning has-text-warning">&nbsp;0&nbsp;</b>, <b class="has-background-warning has-text-warning">&nbsp;0&nbsp;</b> = -1 </div>
+					</div>
+				</div>
+				<p>Deck of Fate: The Deck of Fate ist ein Kartenspiel, das die statistische Verteilung der Fate-Würfel kopiert. Du kannst sie anstelle von Würfeln verwenden — beides funktioniert wunderbar.</p>
+				<p>Diese Regeln wurden unter der Annahme geschrieben, dass du mit Fate-Würfeln würfelst, aber du kannst das verwenden, was deine Gruppe bevorzugt. Jedes Mal, wenn die gesagt wird, dass du würfeln sollst, bedeutet das auch, dass du stattdessen aus dem Das Deck of Fate ziehen kannst.</p>
+				<h2 class="title is-size-3 is-uppercase">Ergebnisse</h2>
+				<p>Sobald du gewürfelt hast, addierst du deinen Fertigkeitsbonus (darüber sprechen wir gleich) und alle Boni von Aspekten oder Stunts. Vergleiche die Summe mit einer Zielzahl, die entweder eine feste Schwierigkeit oder das Ergebnis des Wurfes des SLs für einen NSC ist. Basierend auf diesem Vergleich ist dein Ergebnis:</p>
+				<ul>
+					<li>Du erleidest einen <b>Fehlschlag</b> wenn deine Summe kleiner ist als die deines Gegners.</li>
+					<li>Es ist ein <b>Gleichstand</b> wenn deine Summe gleich der Summe deines Gegners ist.</li>
+					<li>Du hast <b>Erfolg</b>, wenn dein Gesamtwer größer als der deines Gegners ist.</li>
+					<li>Du hast <b>Erfolg mit Stil</b> , wenn dein Total mindestens drei mal größer ist als das deines Gegners.</li>
+				</ul>
+				<p>Nun, da wir die Ergebnisse behandelt haben, können wir über Aktionen sprechen und wie die Ergebnisse mit ihnen funktionieren.</p>
+				<h2 class="title is-size-3 is-uppercase">Aktionen</h2>
+				<p>Du hast also erzählt, was dein SC zu tun versucht, und du hast festgestellt, dass die Möglichkeit besteht, dass du scheitern könntest. Als nächstes musst du herausfinden, welche <b>Aktion</b> am besten beschreibt, was du versuchst zu tun. Es gibt vier grundlegende Aktionen, die alles abdecken, was du im Spiel tust.</p>
+				<h3 class="title is-size-4 is-uppercase">Einen Vorteil erschaffen</h3>
+				<p><b>Einen Vorteil zu schaffen</b> ist alles, was du tust, um die oder einem deiner Freunde zu helfen. Wenn du dir einen Moment Zeit nimmst, um sorgfältig mit deinem Protonenblaster zu zielen, wenn du mehrere Stunden damit verbringst, in der Schulbibliothek zu recherchieren, oder wenn du dem Ganoven, der dich ausrauben will, ein Bein stellst — all das zählt als Erschaffen eines Vorteils. Das Ziel deiner Aktion kann die Chance bekommen, dich mist der Verteidigungsaktion zu stoppen. Der Vorteil, den du erschaffst,lässt dich eines der folgenden drei Dinge tun:</p>
+				<ul>
+					<li>Erschaffe einen neuen Situationsaspekt. </li>
+					<li>Entdecke einen bestehenden Situationsaspekt oder den Askpekt eines anderen Charakters, von dem du nichts wusstest. </li>
+					<li>Nutze einen bestehenden Aspekt. </li>
+				</ul>
+				<p><b>Wenn du einen neuen Aspekt erschaffst oder einen existierenden Aspekt endeckst:</b></p>
+				<ul>
+					<li><b>Wenn du einen Fehlschlag erleidest:</b> Entweder erschaffst oder entdeckst du den Aspekt gar nicht, oder du erschaffst oder entdeckst ihn, aber ein Gegner darf den Aspekt kostenlos beschwören. Die zweite Option funktioniert am besten, wenn der Aspekt, den du erschaffst oder entdeckst, etwas ist, das andere Leute ausnutzen können (wie z.B. <b><i>Rough Terrain</i></b>). Es kann sein, dass du den Aspekt umformulieren musst, um zu zeigen, dass er dem anderen Charakter zugute kommt und nicht dir—wie auch immer es für den Spieler, der die kostenlose Beschwörung erhält, am sinnvollsten ist. Du kannst den Aspekt immer noch beschwören, wenn du möchtest, aber es kostet dich einen Fate-Punkt.</li>
+					<li> <b>Wenn du einen Gleichstand erzielst:</b> Wenn du einen neuen Aspekt erschaffst, bekommst du einen <b>Energieschub</b>. Benenne ihn und beschwöre ihn einmal umsonst—danach verschwindet der Energieschub. Wenn du versuchst, einen existierenden Aspekt zu entdecken, wird dies ald Erfolg gewertet (siehe unten). </li>
+					<li><b>Wenn du einen Erfolg erzielst:</b> Du erschaffst oder entdeckst den Aspekt, und du oder ein Verbündeter darf ihn einmal kostenlos beschwören. Schreibe den Aspekt auf eine index-Karte oder einen Klebezettel und lege ihn auf den Tisch.</li>
+					<li><b>Wenn du einen Erfolg mit Stil erzielst:</b> Du erschaffst oder entdeckst den Aspekt, und du oder ein Verbündeter darf ihn <i>zweimal</i> kostenlos beschwören. Normalerweise kannst du denselben Aspekt nich zweimal mit demselben Wurf beshwören, aber dies ist eine Ausnahme; ein Erfolg mit Stil gibt dir einen GROSSEN Vorteil!</li>
+				</ul>
+				<p>Wenn du versuchst, einen Vorteil aus einem Aspekt zu ziehen, den du bereits kennst:</p>
+				<ul>
+					<li><b>Wenn du einen Fehlschlag erleidest:</b> Du erhältst keinen zusätzlichen Vorteil durch den Aspekt. Du kannst ihn trotzdem in der Zukunft beschwören, wenn du möchtest, allerdings auf Kosten eines Fate-Punktes.</li>
+					<li><b>Wenn du einen Gleichstand oder Erfolg erzielst:</b> Du erhältst eine kostenlose Bschwörung des Aspekts für dich oder einen Verbündeten, die du später nutzen kannst. Du könntest einen Kreis oder ein Kästchen auf die Notizkarte des Aspekts malen und ihn abhaken, wenn die Beschwörung benutzt wird.</li>
+					<li><b>Wenn du einen Erfolg mit Stil erzielst:</b> Du erhältst <i>zwei</i> kostenlose Beschwörungen auf den Aspekt, die du einen Verbündeten benutzen lassen kannst, wenn du möchtest.</li>
+				</ul>
+				<!--spiego-->
+			</div>
+			<div class="box has-background-grey-darker has-text-white my-6">
+				<p class="is-size-4 has-text-weight-bold mb-6">AKTIONEN UND ERGEBNISSE: DIE 30-SEKUNDEN VERSION</p>
+				<section class="mb-4">
+					<p class="is-size-5 has-text-weight-bold">Einen Vorteil erschaffen beim Eschaffen oder Entdecken der Aspekte:</p>
+					<p><b>Fehlschlag:</b> Erschaffe oder Entdecke nicht, oder tu es doch dein Gegner erhält eine kostenlose Beschwörung. </p>
+					<p><b>Gleichstand:</b> Bekomme einen Energieschub auf neuen Aspekt erschaffen, oder als Erfolg zählen beim Heraufrufen eines Existierenden.</p>
+					<p><b>Erfolg:</b> Erschaffe oder entdecke den Aspekt, erhalte eine kostenlose Beschwörung darauf.</p>
+					<p><b>Erfolg mit Stil:</b> Erschaffe oder entdecke den Aspekt, erhalte zwei kostenlose Beschwörung darauf.</p>
+				</section>
+				<section class="mb-5">
+					<p class="is-size-5 has-text-weight-bold">Erschaffe einen Vorteil auf einem Aspekt den du bereits kennst:</p>
+					<p><b>Fehlschlage:</b> Keinen zusätzlichen Vorteil.</p>
+					<p><b>Gleichstand:</b> Erschaffe eine konstenose Beschwörung auf dem Aspekt.</p>
+					<p><b>Erfolg:</b> Erschaffe eine konstenlose Beschwörung auf dem Aspekt.</p>
+					<p><b>Erfolg mit Stil:</b> Erschaffe zwei konstenose Beschwörungen auf dem Aspekt.</p>
+				</section>
+				<section class="mb-4">
+					<p class="is-size-5 has-text-weight-bold">Überwinden:</p>
+					<p><b>Fehlschlag:</b> Scheitere oder erreiche dein Ziel, aber der Erfolg hat einen großen Haken.</p>
+					<p><b>Gleichstand:</b> Erreiche dein Ziel und dein Erfolg hat einen kleinen Haken.</p>
+					<p><b>Erfolg:</b> Du erreichts dein Ziel.</p>
+					<p><b>Erfolg mit Stil:</b> Du erreichts dein Ziel und erhälst einen Energieschub.</p>
+				</section>
+				<section class="mb-4">
+					<p class="is-size-5 has-text-weight-bold">Angreifen:</p>
+					<p><b>Fehlschlag:</b> Kein Effekt.</p>
+					<p><b>Gleichstand:</b> Angriff fügt dem Ziel keinen Schaden zu, aber du bekommst einen Energieschub.</p>
+					<p><b>Erfolg:</b> Angriff trifft und verursacht Schaden.</p>
+					<p><b>Erfolg mit Stil:</b> Angriff trifft und verursacht Schaden. Du kannst den Schaden um eins reduzieren um einen Energieschub zu erzeugen.</p>
+				</section>
+				<section class="mb-4">
+					<p class="is-size-5 has-text-weight-bold">Verteidigen:</p>
+					<p><b>Fehlschlag:</b> Du erleidest die Folgen des Gegnerischen Erfolges.</p>
+					<p><b>Gleichstand:</b> Schaue die Aktion des Gegners um zu sehen was passiert.</p>
+					<p><b>Erfolg:</b> Der Gegner erhält nicht, was er will.</p>
+					<p><b>Erfolg mit Stil:</b> Der Gegner erhält nicht, was er will, und du bekommst einen Energieschub.</p>
+				</section>
+			</div>
+			<!--overcome-->
+			<section class="section">
+				<div class="container is-max-desktop">
+					<div class="content">
+						<h3 class="title is-size-4 is-uppercase">Überwinden</h3>
+						<p>Du benutzt die <b>Überwindungsaktion</b>, wenn du etwas überwinden musst, das zwischen dir und einem bestimmten Ziel steht — ein Schloss knacken, aus Hanschellen entkommen, über einen Abgrund springen, ein Raumschiff durch ein Asteroidenfeld fliegen.  Eine Aktion zu ergreifen, um einen umbequemen Situationsaspekt zu beseitigen oder zu verändern, ist normalerweise eine Überwindungsaktion; wir werden mehr darüber in <i>Aspekte</i> und Fate-Punkte sprechen. Das Ziel deiner Aktion kann die Chance bekommen, dich mit der Verteidigungsaktion zu stoppen.</p>
+						<ul>
+							<li><b>Wenn du einen Fehlschlag erleidest:</b> Du hast eine schwere Entscheidung zu treffen. Du kannst einfach scheitern — die Tür ist immer noch verschlossen, der Schläger steht immer noch zwischen dir und dem Ausgang, das feindliche Raumschiff ist die immer noch <b class="is-italic">auf den Fersen</b>. Oder du kannst erfolgreich sein, aber zu einem großen Haken — vielleicht lässt du etwas Lebenswichtiges fallen, das du bei dir trägst, vielleicht wirst du verletzt.  Der SL hilft dir, einen angemessenen Haken zu finden</li>
+							<li><b>Wenn du einen Gleichstand erzielst:</b> Du erreichst dein Ziel, aber zu einem kleinen Haken. Der SL könnte eine Komplikation einführen, oder dich vor eine schwierige Wahl stellen (du kannst einen deiner Freunde retten, aber nicht den anderen), oder ein andere Twist. Siehe „<i>Erfolg um jeden Haken</i>“ in <i>Das Spiel leiten</i> in <i>Fate Core</i> für weitere Ideen.</li>
+							<li><b>Wenn du einen Erfolg erzielst:</b> Du erreichst, was du vorhattest. Das Schloss springt auf, du duckst dich um den Schläger, der die Tür blockiert, du schaffst es, das außerirdische Raumschiff abzuschütteln, das dich verfolgt.</li>
+							<li><b>Wenn du einen Erfolg mit Stil erzielst:</b> Wie Erfolg (oben), aber du erhältst zusätzlich einen Energieschub.</li>
+						</ul>
+						<h3 class="title is-size-4 is-uppercase">Angreifen</h3>
+						<p>Benutze einen <b>Angriff</b> wenn du Jemanden mental oder physisch verletzen willst—schwinge ein Schwert, feuer ein  Blaster-Gewehr ab, oder schrei eine grobe Beleidigung herausmit der Intention das Ziel zu verletzen. Wir werden noch über dies reden in <i>Aua! Schaden, Stress, und Konsequenzen</i>, aber das Wichtigste ist: Wenn jemand zu stark verletzt wird, wird er oder sie  ausser Gefecht gesetzt. ) Das Ziel deines Angriffes erhält die Chance auf die Verteidigungs Aktion um dich zu stoppen.</p>
+						<ul>
+							<li><b>Wenn du einen Fehlschlag erleidest:</b> Dein Angriff verfehlt. Das Ziel parriert dein Schwert, dein Schuss verfehlt, das Ziel belacht deine Beleidigung.</li>
+							<li><b>Wenn du einen Gleichstand erzielst:</b> Dein Angriff trifft nicht stark genug um Schaden zu verursachen, aber du erhälst einen Energieschub.</li>
+							<li><b>Wenn du einen Erfolg erzielst:</b> Dein Angriff trifft und verursacht Schaden. Siehe <i>Aua! Schaden, Stress, und Konsequenzen</i>. </li>
+							<li><b>Wenn du einen Erfolg mit Style erzielst:</b> Dein Angriff trifft und verursacht Schaden, dazu hast du die Möglichkeit den Schaden, den dein Angriff verursachen würde um ins zu verringern und einen Energieschub zu erhalten. </li>
+						</ul>
+						<h3 class="title is-size-4 is-uppercase">Verteidigen</h3>
+						<p>Benutze <b>Verteidigen</b>, wenn du aktiv Jemanden davon abhalten möchtest eine der anderen drei Aktionen auszuführen—du parierst einen Schwerthieb, versuchst auf den Beinen zu bleiben, blockierst ein Tor zu blockieren, und ähnliches.  Normalerweise wird diese Aktion Normalerweise wird diese Aktion im Zug eines anderen</i> ausgeführt, als Reaction auf ihren Versuch zum Angriff, Überwinden, oder Erschaffen eines Vorteiles.im Zug eines anderen ausgeführt, als Reaction auf ihren Versuch zum Angriff, Überwinden, oder Erschaffen eines Vorteiles. Du kannst ebenfalls würfeln um einigen nicht-Angriff Aktionen zu entgegnen, oder um gegen einen Angriff auf einen Anderen zu verteidigen, wenn du erklären kannst, wieso du dies kannst. Normalerweise ist es ausreichend, wenn die meisten Spieler am Tisch sich einig sind, dass die Aktion Sinn macht, aber du kannst auch einen relevanten Situations Aspekt hinweisen um dich zu rechtfertigen. Wenn du dies machst, wirst du Ziel aller schlechten Resultate. </p>
+						<ul>
+							<li><b>Wenn du einen Fehlschlag erleidest:</b> Du erleidest die Folgen des Erfolges deines Gegners.</li>
+							<li><b>Wenn du einen Gleichstand erzielst:</b> Es geht nicht allzu schlecht für dich aus: siehe in der Beschreibung der Aktion des Gegners um zu wissen was passiert.</li>
+							<li><b>Wenn du einen Erfolg mit Stil erzielst:</b> Dein Gegner erhält nicht was er will, ebenfalls erhälst du einen Energieschub.</li>
+						</ul>
+						<h3 class="title is-size-4 is-uppercase">Hilfe erhalten</h3>
+						<p>Ein Verbündeter kann dir helfen, deine Aktion auszuführen. Wenn ein Verbündeter dir hilft, gibt er seine Aktion für den Austasch auf und beschreibt, wie er die Hilfe leistet; dur erhältst ein +1 auf deinen Wurff für jeden Verbündeten, der auf diese Weise hilft. Normalerweise können nur ein oder zwei Personen auf diese Weise helfen, bevor sie sich gegenseitig in die Quere kommen; der Spielleiter entscheidet, wie viele Personen auf einmal helfen können.</p>
+						<div class="container my-6">
+							<h2 class="title is-size-3 is-uppercase">Wähle deine Fertigkeit</h2>
+							<p>Wie wir in <i>Wer willst du sein?</i> erwähnt haben, gibt es sechs <b>Fertigkeiten</b>, die beschreiben, wie du Aktionen ausführst.</p>
+							<ul>
+								<li><b>Vorsichtig:</b> Eine vorsichtige Aktion ist, wenn du genau auf Details achtest und die Zeit nimmst, um die Aufgabe richtig zu erledigen. Einen weitreichenden Pfeilschuss ausrichten. Aufmerksam Wache stehen. Die Alarmanlage einer Bank entschärfen.</li>
+								<li><b>Clever:</b> Eine clevere Aktion erfordert, dass du schnell denkst, Probleme löst oder komplexe Variablen berücksichtigst. Die Schwachstelle im Stil eines gegnerischen Schwertkämpfers finden. Die Schwachstelle in einer Festungsmauer finden. Einen Computer reparieren.</li>
+								<li><b>Auffällig:</b> Eine auffällige Aktion zieht die Aufmerksamkeit auf dich; sie ist voller Stil und Elan. Eine inspirierende Rede vor deiner Armee halten. Deinen Gegner in einem Duell blamieren. Ein magisches Feuerwerk veransalten.</li>
+								<li><b>Kraftvoll:</b> Eine kraftvolle Aktion ist nicht subtil — sie ist brachiale Stärke. Mit einem Bären ringen. Einen Verbrecher niederstarren. Einen großen, mächtigen Zauberspruch wirken.</li>
+								<li><b>Schnell:</b> Eine schnelle Aktion erfordert, dass du dich schnell und mit Geschicklichkeit bewegst. Einem Pfeil ausweichen. Den ersten Schlag landen. Entschärfe eine Bombe, während sie 3... 2... 1... tickt.</li>
+								<li><b>Heimlich:</b> Eine Heimlich Aktion wird mit einem Schwerpunkt auf Irreführung, Stealth oder Täuschung durchgeführt. Sich aus einer Verhaftung herausreden. Eine Tasche stehlen. In einem Schwertkampf fintieren.</li>
+							</ul>
+						</div>
+						<p>Jeder Charakter hat jede Fertigkeiten mit einem Bonus von +0 bis +3 bewertet. Addiere den Bonus zu deinem Würfelwurf, um zu bestimmen, wie gut dein SC die beschriebene Aktion ausführt.</p>
+						<p>Also ist dein erster Instinkt wahrtscheinlich, die Aktion zu wählen, die dir den größten Bonus gibt, richtig? Aber so funktioniert es nicht. Du musst deine Wahl der Fertigkeiten auf die Beschreibung deiner Aktion stützen, und du kannst keine Aktion beschreiben, die keinen Sinn ergibt. Würdest du dich gewaltsam durch einen dunklen Raum schleichen, um dich vor den Wachen zu verstecken? Nein, das ist Heimlich. Würdest du schnell den großen Felsen aus dem Weg schieben, der vor dem Wagen liegt? Nein, das ist Kraftvoll. Die Umstände schränken deine Möglichkeiten ein, also musst du manchmal eine Methode wählen, die nicht direkt zu deinen Stärken passt.</p>
+						<h2 class="title is-size-3 is-uppercase">Würfle, füge deinen Bonus hinzu</h2>
+						<p>Zeit, die Würfel zu nehmen und zu würfeln. Nimm den Bonus für die gewählte Methode und addiere ihn zum Würfelergebnis. Wenn du einen Stunt hast, der anwendbar ist, addiere auch diesen. Das ist dein Gesamtergebnis. Vergleiche es mit dem, was dein Gegner (normalerweise der SL) hat.</p>
+						<h2 class="title is-size-3 is-uppercase">Entscheide, ob du den Wurf modifizieren willst</h2>
+						<p>Entscheide zum Schluss, ob du deinen Wurf durch das Beschwören von Aspekten verändern willst — wir werden in <i>Aspekte und Fate-Punkte</i> viel darüber sprechen.</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-info">
+		<div class="hero-body has-text-centered"> ▲ LocJAM RPG - Can translate up to here (4798 words) ▲</div>
+	</section>
+	<!--Challenges, Contests, and Conflicts-->
+	<section class="section">
+		<div class="container is-max-desktop">
+			<div class="content">
+				<h1 class="title is-size-1 is-uppercase"></h1>
+				<p> </p>
+				<p> </p>
+				<p></p>
+				<h2 class="title is-size-3 is-uppercase"></h2>
+				<p> </p>
+				<p></p>
+				<p> </p>
+				<p class="box is-italic">  </p>
+				<h2 class="title is-size-3 is-uppercase"></h2>
+				<p> </p>
+				<p>  </p>
+				<p> </p>
+				<p>  </p>
+				<p></p>
+				<h2 class="title is-size-3 is-uppercase"></h2>
+				<p> </p>
+				
+<section class="my-6">
+				<div class="columns is-8">
+					<div class="column is-two-thirds">
+						<h3 class="title is-size-4 is-uppercase"></h3>
+						<p>   </p>
+						<p> </p>
+						<p></p>
+						<p>  </p>
+					</div>
+					<div class="column">
+						<div class="box has-background-grey-darker has-text-white">
+							<p class="is-size-4 has-text-weight-bold is-uppercase"></p>
+							<ol>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ol>
+						</div>
+					</div>
+				</div>
+				<p class="box is-italic">    </p>
+</section>
+
+				<h3 class="title is-size-4 is-uppercase"></h3>
+				<p>    </p>
+				<p> </p>
+				<h3 class="title is-size-4 is-uppercase"></h3>
+				<p>   </p>
+			</div>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-primary">
+		<div class="hero-body"> </div>
+	</section>
+	<!--Ouch! Damage, Stress, and Consequences-->
+	<section class="section">
+		<div class="container is-max-desktop">
+			<div class="content">
+				<h1 class="title is-size-1 is-uppercase"> </h1>
+				<p> </p>
+				<p></p>
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+				<p class="mb-6">
+					<div class="columns is-gapless">
+						<div class="column is-primary">
+							<div class="box has-background-grey-darker has-text-white">
+								<p class="is-size-4 has-text-weight-bold mb-6"> </p>
+								<p class="mb-4">
+									<ul>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li>  </li>
+										<li> </li>
+										<li> </li>
+										<li> </li>
+										<li> </li>
+									</ul>
+							</div>
+						</div>
+						<div class="column is-hidden-touch" style="background: url('img/hawk-17.png') no-repeat left center; background-size: contain;" aria-label="Blackhawk #017 Art by: Al Bryant https://digitalcomicmuseum.com/index.php?dlid=20575"> </div>
+					</div>
+					<h2 class="title is-size-3 is-uppercase"></h2>
+					<p></p>
+					<p></p>
+					<p> </p>
+					<p> </p>
+					<h2 class="title is-size-3 is-uppercase"></h2>
+					<p>      </p>
+					<p>   </p>
+					<p class="box is-italic">    </p>
+					<p></p>
+					<h2 class="title is-size-3 is-uppercase"></h2>
+					<p>  </p>
+					<h2 class="title is-size-3 is-uppercase"></h2>
+					<p></p>
+					<p> </p>
+					<p> </p>
+					<h2 class="title is-size-3 is-uppercase"></h2>
+					<p>  </p>
+					<ul>
+						<li> </li>
+						<li> </li>
+						<li>  </li>
+					</ul>
+					<div class="box has-background-grey-darker has-text-white">
+						<p class="is-size-4 has-text-weight-bold is-uppercase"></p>
+						<p>  </p>
+					</div>
+			</div>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-primary">
+		<div class="hero-body"> </div>
+	</section>
+	<!--Aspects and Fate Points-->
+	<section class="section">
+		<div class="container is-max-desktop">
+			<div class="content">
+				<h1 class="title is-size-1 is-uppercase"></h1>
+				<p>     </p>
+				<p>  </p>
+				<p class="box is-italic">   </p>
+				<h2 class="title is-size-3 is-uppercase"></h2>
+				<p> </p>
+				<div class="box">
+					<section class="mb-5">
+						<p class="has-text-weight-bold is-size-5"></p>
+						<p>  </p>
+						<p class="has-text-centered is-italic"> </p>
+					</section>
+					<section class="mb-5">
+						<p class="has-text-weight-bold is-size-5"></p>
+						<p>   </p>
+						<p class="has-text-centered is-italic"> </p>
+					</section>
+					<section class="mb-5">
+						<p> </p>
+					</section>
+					<section class="mb-5">
+						<p class="has-text-weight-bold is-size-5"></p>
+						<p>  </p>
+						<p class="has-text-centered is-italic"> </p>
+					</section>
+					<section class="mb-5">
+						<p class="has-text-weight-bold is-size-5"></p>
+						<p>  </p>
+						<p class="has-text-centered is-italic"> </p>
+					</section>
+					<figure class="image is-full-width"> <img src="img/strange-12.png" alt=""/> </figure>
+				</div>
+				<h2 class="title is-size-3 is-uppercase"></h2>
+				<p></p>
+				<h3 class="title is-size-4 is-uppercase"></h3>
+				<p>   </p>
+				<div class="columns is-8 is-vcentered">
+					<div class="column is-three-fifths">
+						<div class="box">
+							<ul>
+								<li> </li>
+								<li> </li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="column">
+						<div class="box has-background-grey-darker has-text-white">
+							<p class="is-size-4 has-text-weight-bold is-uppercase"></p>
+							<p> </p>
+						</div>
+					</div>
+				</div>
+				<p> </p>
+				<ul>
+					<li> </li>
+					<li>  </li>
+					<li>  </li>
+					<li>  </li>
+				</ul>
+				<p>  </p>
+				<p> </p>
+				<p>    </p>
+				<h3 class="title is-size-4 is-uppercase"></h3>
+				<p>  </p>
+				<p></p>
+				<div class="columns is-8">
+					<div class="column is-three-fifths">
+						<p class="has-text-weight-bold is-size-5"></p>
+						<p>  </p>
+						<p class="has-text-weight-bold is-size-5"></p>
+						<p>  </p>
+						<p>     </p>
+					</div>
+					<div class="column">
+						<div class="box has-background-grey-darker has-text-white">
+							<p class="is-size-4 has-text-weight-bold is-uppercase"></p>
+							<p>   </p>
+							<p>  </p>
+							<p> </p>
+						</div>
+					</div>
+				</div>
+				<h3 class="title is-size-4 is-uppercase"></h3>
+				<p>    </p>
+				<p>  </p>
+				<h2 class="title is-size-3 is-uppercase"></h2>
+				<p></p>
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+				<div class="box">
+					<p></p>
+					<section class="mb-4">
+						<p class="has-text-weight-bold is-italic is-size-5"></p>
+						<ul>
+							<li></li>
+							<li></li>
+						</ul>
+					</section>
+					<section class="mb-4">
+						<p class="has-text-weight-bold is-italic is-size-5"></p>
+						<ul>
+							<li></li>
+							<li></li>
+						</ul>
+					</section>
+				</div>
+				<p></p>
+			</div>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-primary">
+		<div class="hero-body"> </div>
+	</section>
+	<!--Stunts-->
+	<section class="section">
+		<div class="container is-max-desktop">
+			<div class="content">
+				<h1 class="title is-size-1 is-uppercase"></h1>
+				<p>  </p>
+				<p> </p>
+				<p> </p>
+				<p> </p>
+				<div class="box">
+					<p></p>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<p></p>
+				<p> </p>
+				<p></p>
+				<div class="box">
+					<p></p>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<p> </p>
+			</div>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-primary">
+		<div class="hero-body"> </div>
+	</section>
+	<!--Getting Better at Doing Stuff: Character Advancement-->
+	<section class="section">
+		<div class="container is-max-desktop">
+			<div class="content">
+				<h1 class="title is-size-1 is-uppercase"> </h1>
+				<p>    </p>
+				<h2 class="title is-size-3 is-uppercase"></h2>
+				<p>      </p>
+				<p> </p>
+				<div class="box">
+					<h3 class="title is-size-4 is-uppercase"></h3>
+					<p>  </p>
+					<p></p>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<p> </p>
+					<h3 class="title is-size-4 is-uppercase"></h3>
+					<p> </p>
+					<p></p>
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+					<h3 class="title is-size-4 is-uppercase"></h3>
+					<p></p>
+					<p> </p>
+					<p> </p>
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+					<figure class="image is-full-width p-6"> <img src="img/doll-24.png" alt=""/> </figure>
+				</div>
+					<div class="box has-background-grey-darker has-text-white">
+						<p class="is-size-4 has-text-weight-bold is-white"></p>
+						<p></p>
+					</div>
+			</div>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-primary">
+		<div class="hero-body"> </div>
+	</section>
+	<!--Being the GM-->
+	<section class="section">
+		<div class="container is-max-desktop">
+			<div class="content">
+				<h1 class="title is-size-1 is-uppercase"></h1>
+				<p></p>
+				<p></p>
+				<h2 class="title is-size-3 is-uppercase"></h2>
+				<p>   </p>
+				<div class="columns is-8">
+					<div class="column is-half">
+						<div class="box">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="column">
+						<div class="box has-background-grey-darker has-text-white">
+							<p class="is-size-4 has-text-weight-bold is-uppercase"></p>
+							<p>    </p>
+						</div>
+					</div>
+				</div>
+				<h2 class="title is-size-3 is-uppercase"></h2>
+				<p>  </p>
+				<h3 class="title is-size-4 is-uppercase"></h3>
+				<p> </p>
+				<p>  </p>
+				<p>  </p>
+				<h3 class="title is-size-4 is-uppercase"></h3>
+				<p>  </p>
+				<p></p>
+				<ul>
+					<li>   </li>
+					<li> </li>
+					<li>  </li>
+					<li> </li>
+					<li>  </li>
+					<li>  </li>
+				</ul>
+				<h2 class="title is-size-3 is-uppercase"></h2>
+				<div class="columns is-8">
+					<div class="column is-two-thirds">
+						<p> </p>
+						<p>  </p>
+						<h3 class="title is-size-4 is-uppercase"></h3>
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li> </li>
+						</ul>
+					</div>
+					<div class="column">
+						<div class="box has-background-grey-darker has-text-white">
+							<p class="is-size-4 has-text-weight-bold is-uppercase"> </p>
+							<p>  </p>
+						</div>
+					</div>
+				</div>
+				<h2 class="title is-size-3 is-uppercase"></h2>
+				<p> </p>
+				<p>  </p>
+				<ol>
+					<li> </li>
+					<li> </li>
+					<li></li>
+					<li> </li>
+					<li></li>
+					<li> </li>
+				</ol>
+				<section class="my-6">
+					<div class="columns">
+						<div class="column">
+							<div class="box">
+								<section class="mb-5 ">
+									<p class="has-text-weight-bold is-size-5 has-text-centered"> </p>
+									<p> </p>
+									<p> </p>
+									<p> </p>
+								</section>
+							</div>
+						</div>
+						<div class="column">
+							<div class="box">
+								<section class="mb-5 ">
+									<p class="has-text-weight-bold is-size-5 has-text-centered"> </p>
+									<p> </p>
+									<p> </p>
+									<p></p>
+								</section>
+							</div>
+						</div>
+						<div class="column">
+							<div class="box">
+								<section class="mb-5">
+									<p class="has-text-weight-bold is-size-5 has-text-centered"> </p>
+									<p> </p>
+									<p> </p>
+									<p> </p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</section>
+				<p>   </p>
+				<ol>
+					<li> </li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+				<section class="my-6">
+					<div class="box">
+						<section class="mb-5">
+							<p class="has-text-weight-bold is-size-5 has-text-centered"> </p>
+							<p> </p>
+							<p> </p>
+							<p></p>
+						</section>
+					</div>
+				</section>
+				<p>  </p>
+			</div>
+		</div>
+	</section>
+	<!--gap-->
+	<section class="hero is-small is-primary">
+		<div class="hero-body"> </div>
+	</section>
+	<!--character-->
+	<section class="section">
+		<div class="container is-max-desktop">
+			<div class="content">
+				<h1 class="title is-size-1 is-uppercase"></h1>
+				<p class="mb-6"></p>
+				<div class="box mb-8">
+					<h2 class="title is-size-4 is-uppercase"></h2>
+					<p>    </p>    
+					<section class="my-5"> 
+						<div class="columns">
+							<div class="column is-half">     </div>
+							<div class="column is-half">     </div>
+						</div>
+					</section>  
+					<section class="my-5">  </section>   
+					<section class="my-5">   </section>
+				</div>
+				<div class="box mb-8">
+					<h2 class="title is-size-4 is-uppercase"></h2>
+					<p>   </p>    
+					<section class="my-5"> 
+						<div class="columns">
+							<div class="column is-half">     </div>
+							<div class="column is-half">     </div>
+						</div>
+					</section>   
+					<section class="my-5">  </section>   
+					<section class="my-5">   </section>
+				</div>
+				<div class="box mb-8">
+					<h2 class="title is-size-4 is-uppercase"></h2>
+					<p>    </p>    
+					<section class="my-5"> 
+						<div class="columns">
+							<div class="column is-half">     </div>
+							<div class="column is-half">     </div>
+						</div>
+					</section>   
+					<section class="my-5">  </section>   
+					<section class="my-5">   </section>
+				</div>
+				<div class="box mb-8">
+					<h2 class="title is-size-4 is-uppercase"></h2>
+					<p>   </p>        
+					<section class="my-5"> 
+						<div class="columns">
+							<div class="column is-half">     </div>
+							<div class="column is-half">     </div>
+						</div>
+					</section> 
+					<p>    
+						<section class="my-5">  </section>   
+						<section class="my-5">   </section>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+</body>
+
+</html>
